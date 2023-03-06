@@ -8,15 +8,21 @@
   </head>
   <body>
     <nav class="navbar navbar-light bg-secondary mb-5">
-        <span class="navbar-brand mb-0 h1">Text/Video Chat</span>
+        <div class="container">
+          <span class="navbar-brand mb-0 h1">Text/Video Chat</span>
+        </div>
       </nav>
-
+      
+    
+    <div class="container">
       <div id="list-example" class="list-group">
         <a class="list-group-item list-group-item-action" href="#list-item-1">Popis</a>
         <a class="list-group-item list-group-item-action" href="#list-item-2">Software</a>
         <a class="list-group-item list-group-item-action" href="#list-item-3">Závěr</a>
       </div>
-      <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
+    </div>
+    
+      <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example container">
         <h4 id="list-item-1">Popis</h4>
         <p>Pro práci využívám HTML, CSS, JavaScript, NodeJS a Socket.io. Díky knihovnám Express a Socket.IO je možné dosáhnout funkce chatu v reálném čase. Všechny soubory, které obsahují náplň našeho webu jako je (text/video chat - HTML, CSS a JavaScript) jsou přístupné na vytvořeném serveru, který naslouchá na portu 3000 (localhost:3000). Pomocí volaných funkcí, které vysílají Socket.io eventy umožňujeme připojení, odpojení a odeslání zprávy.  Tyto funkce vysílají eventy, které jsou zachyceny a následně odeslány dalším uživatelům</p>
         <h4 id="list-item-2">Software</h4>
